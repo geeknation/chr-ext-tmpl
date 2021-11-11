@@ -6,7 +6,7 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage,scripting,history,activeTab"],
   "action": {
     "default_popup": "index.html",
     "default_icon": {
